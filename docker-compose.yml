@@ -7,10 +7,12 @@ services:
     volumes: 
       - ./nginx/:/etc/nginx/conf.d/
       - ./src:/var/www/html
+    restart: always
   phpfpm:
     build: ./Dockerfile/phpfpm
     volumes: 
       - ./src:/var/www/html
+    restart: always
   mysql:
     image: mysql:5.7
     command: --default-authentication-plugin=mysql_native_password
@@ -21,6 +23,7 @@ services:
       MYSQL_ROOT_PASSWORD: user
     volumes: 
       - ./mysql:/var/lib/mysql/
+    restart: always
   elastic:
     image: elasticsearch:7.8.1
     container_name: elastic
@@ -32,4 +35,5 @@ services:
       - 9200
     ports: 
       - 9200:9200
+    restart: always
   

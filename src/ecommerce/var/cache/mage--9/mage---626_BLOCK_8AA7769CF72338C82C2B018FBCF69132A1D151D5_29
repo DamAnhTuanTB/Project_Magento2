@@ -1,0 +1,30 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1619284027;s:6:"expire";i:1619287627;s:4:"tags";s:46:"626_BLOCK_HTML,626_CAT_P_29,626_CAT_P,626_MAGE";}
+a:2:{s:8:"policies";a:1:{i:0;a:3:{s:2:"id";s:10:"script-src";s:5:"hosts";a:0:{}s:6:"hashes";a:6:{s:44:"YuSyJCN9uvzMAxYHOKHHRrz//UujY9sl7M8W3/rjYF8=";s:6:"sha256";s:44:"48sb4Je7XoTlJimO7pm/+fwXo5BBI6oU4Vci+QqK2/I=";s:6:"sha256";s:44:"HUjaEs6gPI/8f06cL8Wy1zR3vaPjSDAYb+YL5IRBsf4=";s:6:"sha256";s:44:"9N89WMndeXJQQmez3zcXupuWhb0jRtPuHYgRtBa1Cjo=";s:6:"sha256";s:44:"FUD77+JD9q0ObRiutw9ycUkKPtD3lsrZHlZ3tVblttY=";s:6:"sha256";s:44:"G51+bWepAadPHdt7NnLFghGhNaxS61HO4MkMxW0ziog=";s:6:"sha256";}}}s:4:"html";s:3094:"
+            <div class="field configurable required">
+            <label class="label" for="attribute137">
+                <span>Màu sắc</span>
+            </label>
+            <div class="control">
+                <select name="super_attribute[137]"
+                        data-selector="super_attribute[137]"
+                        data-validate="{required:true}"
+                        id="attribute137"
+                        class="super-attribute-select">
+                    <option value="">Choose an Option...</option>
+                </select>
+            </div>
+        </div>
+        <script type="text/x-magento-init">
+        {
+            "#product_addtocart_form": {
+                "configurable": {
+                    "spConfig": {"attributes":{"137":{"id":"137","code":"mau_s_c","label":"M\u00e0u s\u1eafc","options":[{"id":"5","label":"Tr\u1eafng","products":["28"]},{"id":"7","label":"\u0110en","products":["27"]}],"position":"0"}},"template":"<%- data.price %>\u00a0\u20ab","currencyFormat":"%s\u00a0\u20ab","optionPrices":{"27":{"baseOldPrice":{"amount":990000},"oldPrice":{"amount":990000},"basePrice":{"amount":990000},"finalPrice":{"amount":990000},"tierPrices":[],"msrpPrice":{"amount":0}},"28":{"baseOldPrice":{"amount":990000},"oldPrice":{"amount":990000},"basePrice":{"amount":990000},"finalPrice":{"amount":990000},"tierPrices":[],"msrpPrice":{"amount":0}}},"priceFormat":{"pattern":"%s\u00a0\u20ab","precision":0,"requiredPrecision":0,"decimalSymbol":",","groupSymbol":".","groupLength":3,"integerRequired":true},"prices":{"baseOldPrice":{"amount":990000},"oldPrice":{"amount":990000},"basePrice":{"amount":990000},"finalPrice":{"amount":990000}},"productId":"29","chooseText":"Choose an Option...","images":{"27":[{"thumb":"http:\/\/localhost\/media\/catalog\/product\/cache\/8d91e91a86052226194160f415fdaaa0\/u\/n\/untitled-9-1599124644_1_1.png","img":"http:\/\/localhost\/media\/catalog\/product\/cache\/0ca639959c4536d2da4aef7aed9bfbc5\/u\/n\/untitled-9-1599124644_1_1.png","full":"http:\/\/localhost\/media\/catalog\/product\/cache\/671435c071ee69b258dc8a8ce148119d\/u\/n\/untitled-9-1599124644_1_1.png","caption":null,"position":"1","isMain":true,"type":"image","videoUrl":null}],"28":[{"thumb":"http:\/\/localhost\/media\/catalog\/product\/cache\/8d91e91a86052226194160f415fdaaa0\/u\/n\/untitled-14-1599123349_1__1.png","img":"http:\/\/localhost\/media\/catalog\/product\/cache\/0ca639959c4536d2da4aef7aed9bfbc5\/u\/n\/untitled-14-1599123349_1__1.png","full":"http:\/\/localhost\/media\/catalog\/product\/cache\/671435c071ee69b258dc8a8ce148119d\/u\/n\/untitled-14-1599123349_1__1.png","caption":null,"position":"1","isMain":true,"type":"image","videoUrl":null}]},"index":{"27":{"137":"7"},"28":{"137":"5"}},"channel":"website","salesChannelCode":"base","sku":{"27":"200903019116-\u0110en-1","28":"200903019116-Tr\u1eafng-1"}},
+                    "gallerySwitchStrategy": "prepend"
+                }
+            },
+            "*" : {
+                "Magento_ConfigurableProduct/js/catalog-add-to-cart": {}
+            }
+        }
+    </script>
+";}
