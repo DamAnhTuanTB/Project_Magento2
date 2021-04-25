@@ -1,0 +1,13 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1619345854;s:6:"expire";i:1619432254;s:4:"tags";s:46:"626_BLOCK_HTML,626_CAT_P_59,626_CAT_P,626_MAGE";}
+a:2:{s:8:"policies";a:2:{i:0;a:3:{s:2:"id";s:10:"script-src";s:5:"hosts";a:0:{}s:6:"hashes";a:15:{s:44:"YuSyJCN9uvzMAxYHOKHHRrz//UujY9sl7M8W3/rjYF8=";s:6:"sha256";s:44:"48sb4Je7XoTlJimO7pm/+fwXo5BBI6oU4Vci+QqK2/I=";s:6:"sha256";s:44:"HUjaEs6gPI/8f06cL8Wy1zR3vaPjSDAYb+YL5IRBsf4=";s:6:"sha256";s:44:"9N89WMndeXJQQmez3zcXupuWhb0jRtPuHYgRtBa1Cjo=";s:6:"sha256";s:44:"1CU7ktFf5nZImqpd/vsA/D6FRzI7W+YzfS8+2SKp5vc=";s:6:"sha256";s:44:"Gs6YQPst+PWJA/sNK2HUTXFWh9Umxkr7thuUenTG9Ak=";s:6:"sha256";s:44:"8huRYTuD+rT91Htf5vqBY1NSZzUHFeJEwDAXGIDZk1M=";s:6:"sha256";s:44:"Y7yZg4sIDDeQUg9k+iyVzX2BZ8TetcgxEMHa3VtSfRA=";s:6:"sha256";s:44:"mGf9pVhRnv4+abzKO9J7pcUgNHvZ6P1IvrMyrrVQTi8=";s:6:"sha256";s:44:"rz0CGSKvrkFrySZT52X0E9UKRLAluARBFFmFCoR/Lnc=";s:6:"sha256";s:44:"sUTN/RWe8isR2L5oj83edpoB9CDvH8GWY2cW6+MOd84=";s:6:"sha256";s:44:"K0AhUzQj96Q2+WGlBkK6ce2HICO8ZMfS+X1EOZwx9cA=";s:6:"sha256";s:44:"rHCu4e/zk7jegooLX1aHEDtq2joGKQHMgAO2lm8pA/o=";s:6:"sha256";s:44:"gKtu4S+3Lm6ds3DA3v0x25dWtJKsdPmjt0qB3sp5/6c=";s:6:"sha256";s:44:"A+4j1yT01IUdCeFQ1mAiDQB+MALNQKkcU2cqETpa6bk=";s:6:"sha256";}}i:1;a:3:{s:2:"id";s:9:"style-src";s:5:"hosts";a:0:{}s:6:"hashes";a:9:{s:44:"JytiSWNIGL0TSdNZfBF7Ll/RInnI9O1viWqyxR8vgbg=";s:6:"sha256";s:44:"km/VKWStDDoNHUEK4bvsJMGn4T0SXyuD5EghIkBpWA8=";s:6:"sha256";s:44:"4ztylcie5ePThfWAOZfuk6g3QzqtqAtXc8DCLecG5Yc=";s:6:"sha256";s:44:"bxLK6cPz+Pba4SDzg/viDhFtxoEIzEd6zGRCtPmrFRg=";s:6:"sha256";s:44:"0+82SNjIHKNZ+IULUh40Ol6JsYeOPW3RdyEakmibLzU=";s:6:"sha256";s:44:"A5uBCLx8Nmc+X4XDQ1ayJ3ErWozQkA3+40AOPfHWLMw=";s:6:"sha256";s:44:"K1WE6chVz5w4ZOvJSyxXRv+rpNx65lQPt33i7m2KTXI=";s:6:"sha256";s:44:"xp6zx55G4Ov1+YJE+RFoFeLVtk/ZokRP+KSFPwOpwMY=";s:6:"sha256";s:44:"QHlusAN0kYHCuKSjO8UkVljNVD4JB5L8kuYBmlQ2DZY=";s:6:"sha256";}}}s:4:"html";s:423:"<div class="price-box price-final_price" data-role="priceBox" data-product-id="59" data-price-box="product-id-59">
+    
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+        <span  id="product-price-59"                data-price-amount="765000"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+    ><span class="price">765.000,00 ₫</span></span>
+        </span>
+
+</div>";}

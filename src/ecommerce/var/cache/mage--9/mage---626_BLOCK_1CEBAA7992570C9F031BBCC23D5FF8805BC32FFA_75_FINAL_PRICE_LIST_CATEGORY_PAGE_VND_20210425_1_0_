@@ -1,0 +1,13 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1619345862;s:6:"expire";i:1619432262;s:4:"tags";s:46:"626_BLOCK_HTML,626_CAT_P_75,626_CAT_P,626_MAGE";}
+a:2:{s:8:"policies";a:2:{i:0;a:3:{s:2:"id";s:10:"script-src";s:5:"hosts";a:0:{}s:6:"hashes";a:11:{s:44:"YuSyJCN9uvzMAxYHOKHHRrz//UujY9sl7M8W3/rjYF8=";s:6:"sha256";s:44:"48sb4Je7XoTlJimO7pm/+fwXo5BBI6oU4Vci+QqK2/I=";s:6:"sha256";s:44:"HUjaEs6gPI/8f06cL8Wy1zR3vaPjSDAYb+YL5IRBsf4=";s:6:"sha256";s:44:"9N89WMndeXJQQmez3zcXupuWhb0jRtPuHYgRtBa1Cjo=";s:6:"sha256";s:44:"2P6WJsONUpjnnz9h0wusUFe3FFqYIW/sStI96ltm2wM=";s:6:"sha256";s:44:"Gs6YQPst+PWJA/sNK2HUTXFWh9Umxkr7thuUenTG9Ak=";s:6:"sha256";s:44:"Jko3V3Q4me2yt4T38fmQ6JHXOo8W34cMn2M6O5KP3+M=";s:6:"sha256";s:44:"f852QQf9frjUezCdUYQGmRJPgSJtx/W41lOF7xpnhUw=";s:6:"sha256";s:44:"vJn3iYX0677eJ62nYGb24yGEUmI/xvradgKxNchqw80=";s:6:"sha256";s:44:"eoBeSRCmb3qLXFjhPlKd/OK+t7FyE8XfTEvqeLIAG7o=";s:6:"sha256";s:44:"eNtMkUu/tyPhc4rnaLby6PVpKUvXoRt4MfT0Cmlzd80=";s:6:"sha256";}}i:1;a:3:{s:2:"id";s:9:"style-src";s:5:"hosts";a:0:{}s:6:"hashes";a:5:{s:44:"zsLv5b2nIm2i51ADK/mrkl7+kJptxXdh7pBPnh1v7R8=";s:6:"sha256";s:44:"hlq5dFFqRM5kRhFgsgrZXRPHedMP06aNbqdlMxtSla4=";s:6:"sha256";s:44:"4YiFO9/xomlt4ZHMGkWkvedVp0nGCDRKsemiSKnys60=";s:6:"sha256";s:44:"Qc6OWbR5DNxcN6XH85hGRUxoKoppObMwmpjVgYeBUEk=";s:6:"sha256";s:44:"ubdxt2/bMZ+6eaMAK3WvNGODNi0FK3EbVwRfGfmfhWg=";s:6:"sha256";}}}s:4:"html";s:426:"<div class="price-box price-final_price" data-role="priceBox" data-product-id="75" data-price-box="product-id-75">
+    
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+        <span  id="product-price-75"                data-price-amount="5490000"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+    ><span class="price">5.490.000,00 ₫</span></span>
+        </span>
+
+</div>";}
