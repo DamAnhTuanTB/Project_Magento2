@@ -90,3 +90,17 @@ table {
 table, td, th {
     border: 1px solid black;
 }
+
+table tr:nth-child(odd){
+    background: linear-gradient(45deg, rgb(213, 214, 214), transparent)
+}
+
+.first-row > th{
+    text-align: center;
+    font-weight: bold;
+    text-transform: capitalize;
+    background:rgb(128, 127, 127);
+    color: white;
+    font-family: 'Roboto Condensed';
+    font-size: 18px;
+}

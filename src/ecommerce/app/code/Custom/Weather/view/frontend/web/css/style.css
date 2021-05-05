@@ -1,28 +1,22 @@
-body{
-    background-color: #eee;
-  }
 
   #temp, #humidity-div {
-    font-family: "Courier New";
     font-weight: bold;
     font-size: 60px;
     color: #fff;
-    margin-top: 15%;
     text-align: center
   }
 
   .city-icon-holder {
     text-align: center;
-    width: 200px;
-    margin-left: 25%;
-    margin-top: 25%
+    width: 500px;
+
   }
 
   #city-name {
-    font-family: "Courier New";
-    font-size: 30px;
+    font-size: 50px;
     font-weight: bold;
     color: #fff;
+    font-family: VT323;
   }
 
   #icon {
@@ -40,36 +34,56 @@ body{
     float: left;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: #FF9800;
+    background: linear-gradient(
+45deg
+, #43a0b7, transparent);
+
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
   }
 
   .city-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 400px;
     float: left;
     width: 50%;
     border-bottom-left-radius: 25px;
-    background-color: #FFC107;
+    background: linear-gradient(
+      45deg
+      ,#0c505e, transparent);
   }
 
   .temperature {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     float: left;
     left: 50%;
     top:0%;
     height: 200px;
     width: 50%;
-    background-color: #9C27B0;
+    background: linear-gradient(
+      45deg
+      , #3587a2, transparent);
   }
 
   .humidity {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     float: left;
     height: 200px;
     width: 50%;
     left:50%;
     top:40%;
     border-bottom-right-radius: 25px;
-    background-color: #E91E63;
+    background: linear-gradient(
+      45deg
+      , #1e7092, transparent);
   }
 
   #search-btn {

@@ -6,7 +6,7 @@
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
     <router id="standard">
-        <route id="business" frontName="business">
+        <route id="business" frontName="ban-tin-kinh-doanh">
             <module name="Custom_Business" />
         </route>
     </router>

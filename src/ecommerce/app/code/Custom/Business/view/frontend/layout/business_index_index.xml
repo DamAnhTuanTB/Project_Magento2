@@ -9,9 +9,7 @@
     <body>
         <referenceContainer name="content">
             <block name="custom_business" class="Custom\Business\Block\BusinessBlock" template="business.phtml">
-                <arguments>
-                    <argument name="label" xsi:type="string">KinhDoanh Information</argument>
-                </arguments>
+               
             </block>
         </referenceContainer>
     </body>

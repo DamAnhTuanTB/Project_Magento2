@@ -6,7 +6,7 @@
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
     <router id="standard">
-        <route id="currency" frontName="currency">
+        <route id="currency" frontName="ti-gia-tien-te">
             <module name="Custom_Currency" />
         </route>
     </router>
