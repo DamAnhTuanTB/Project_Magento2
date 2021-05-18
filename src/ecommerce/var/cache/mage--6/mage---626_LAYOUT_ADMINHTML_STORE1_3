@@ -1,4 +1,4 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1620202316;s:6:"expire";i:1651738316;s:4:"tags";s:37:"626_LAYOUT_GENERAL_CACHE_TAG,626_MAGE";}
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1621337650;s:6:"expire";i:1652873650;s:4:"tags";s:37:"626_LAYOUT_GENERAL_CACHE_TAG,626_MAGE";}
 <?xml version="1.0"?>
 <layouts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><handle id="adminhtml_dashboard_index"><body>
    <referenceContainer name="content">
@@ -7964,6 +7964,9 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1620202316;s:6:"expire";i:1651738316;s:4:"t
       <uiComponent name="dotdigitalgroup_sms_report_grid"/>
    </referenceContainer>
 </body>
+</handle><handle id="default"><head>
+   <css src="ET_Theme::css/main.css"/>
+</head>
 </handle><handle id="adminhtml_system_config_edit"><head>
    <css src="Klarna_Core::styles.css"/>
 </head>
