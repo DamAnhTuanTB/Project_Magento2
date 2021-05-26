@@ -6,6 +6,77 @@
  */
 
 var config = {
+    waitSeconds: 0,
+    map: {
+        '*': {
+            'ko': 'knockoutjs/knockout',
+            'knockout': 'knockoutjs/knockout',
+            'mageUtils': 'mage/utils/main',
+            'rjsResolver': 'mage/requirejs/resolver'
+        }
+    },
+    shim: {
+        'jquery/jquery-migrate': ['jquery'],
+        'jquery/jstree/jquery.hotkeys': ['jquery'],
+        'jquery/hover-intent': ['jquery'],
+        'mage/adminhtml/backup': ['prototype'],
+        'mage/captcha': ['prototype'],
+        'mage/new-gallery': ['jquery'],
+        'mage/webapi': ['jquery'],
+        'jquery/ui': ['jquery'],
+        'MutationObserver': ['es6-collections'],
+        'matchMedia': {
+            'exports': 'mediaCheck'
+        },
+        'magnifier/magnifier': ['jquery']
+    },
+    paths: {
+        'jquery/validate': 'jquery/jquery.validate',
+        'jquery/hover-intent': 'jquery/jquery.hoverIntent',
+        'jquery/file-uploader': 'jquery/fileUploader/jquery.fileuploader',
+        'prototype': 'legacy-build.min',
+        'jquery/jquery-storageapi': 'jquery/jquery.storageapi.min',
+        'text': 'mage/requirejs/text',
+        'domReady': 'requirejs/domReady',
+        'spectrum': 'jquery/spectrum/spectrum',
+        'tinycolor': 'jquery/spectrum/tinycolor',
+        'jquery-ui-modules': 'jquery/ui-modules'
+    },
+    deps: [
+        'jquery/jquery-migrate'
+    ],
+    config: {
+        mixins: {
+            'jquery/jstree/jquery.jstree': {
+                'mage/backend/jstree-mixin': true
+            },
+            'jquery': {
+                'jquery/patches/jquery': true
+            }
+        },
+        text: {
+            'headers': {
+                'X-Requested-With': 'XMLHttpRequest'
+            }
+        }
+    }
+};
+
+require(['jquery'], function ($) {
+    'use strict';
+
+    $.noConflict();
+});
+
+require.config(config);
+})();
+(function() {
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+
+var config = {
     map: {
         '*': {
             'rowBuilder':             'Magento_Theme/js/row-builder',
@@ -72,77 +143,6 @@ if (typeof window !== 'undefined' && window.document) {
     }
 }
 /* eslint-enable max-depth */
-
-require.config(config);
-})();
-(function() {
-/**
- * Copyright © Magento, Inc. All rights reserved.
- * See COPYING.txt for license details.
- */
-
-var config = {
-    waitSeconds: 0,
-    map: {
-        '*': {
-            'ko': 'knockoutjs/knockout',
-            'knockout': 'knockoutjs/knockout',
-            'mageUtils': 'mage/utils/main',
-            'rjsResolver': 'mage/requirejs/resolver'
-        }
-    },
-    shim: {
-        'jquery/jquery-migrate': ['jquery'],
-        'jquery/jstree/jquery.hotkeys': ['jquery'],
-        'jquery/hover-intent': ['jquery'],
-        'mage/adminhtml/backup': ['prototype'],
-        'mage/captcha': ['prototype'],
-        'mage/new-gallery': ['jquery'],
-        'mage/webapi': ['jquery'],
-        'jquery/ui': ['jquery'],
-        'MutationObserver': ['es6-collections'],
-        'matchMedia': {
-            'exports': 'mediaCheck'
-        },
-        'magnifier/magnifier': ['jquery']
-    },
-    paths: {
-        'jquery/validate': 'jquery/jquery.validate',
-        'jquery/hover-intent': 'jquery/jquery.hoverIntent',
-        'jquery/file-uploader': 'jquery/fileUploader/jquery.fileuploader',
-        'prototype': 'legacy-build.min',
-        'jquery/jquery-storageapi': 'jquery/jquery.storageapi.min',
-        'text': 'mage/requirejs/text',
-        'domReady': 'requirejs/domReady',
-        'spectrum': 'jquery/spectrum/spectrum',
-        'tinycolor': 'jquery/spectrum/tinycolor',
-        'jquery-ui-modules': 'jquery/ui-modules'
-    },
-    deps: [
-        'jquery/jquery-migrate'
-    ],
-    config: {
-        mixins: {
-            'jquery/jstree/jquery.jstree': {
-                'mage/backend/jstree-mixin': true
-            },
-            'jquery': {
-                'jquery/patches/jquery': true
-            }
-        },
-        text: {
-            'headers': {
-                'X-Requested-With': 'XMLHttpRequest'
-            }
-        }
-    }
-};
-
-require(['jquery'], function ($) {
-    'use strict';
-
-    $.noConflict();
-});
 
 require.config(config);
 })();
@@ -714,8 +714,9 @@ require.config(config);
 var config = {
     map: {
         '*': {
-            transparent: 'Magento_Payment/js/transparent',
-            'Magento_Payment/transparent': 'Magento_Payment/js/transparent'
+            orderReview: 'Magento_Paypal/js/order-review',
+            'Magento_Paypal/order-review': 'Magento_Paypal/js/order-review',
+            paypalCheckout: 'Magento_Paypal/js/paypal-checkout'
         }
     }
 };
@@ -731,9 +732,8 @@ require.config(config);
 var config = {
     map: {
         '*': {
-            orderReview: 'Magento_Paypal/js/order-review',
-            'Magento_Paypal/order-review': 'Magento_Paypal/js/order-review',
-            paypalCheckout: 'Magento_Paypal/js/paypal-checkout'
+            transparent: 'Magento_Payment/js/transparent',
+            'Magento_Payment/transparent': 'Magento_Payment/js/transparent'
         }
     }
 };
@@ -1105,6 +1105,48 @@ var config = {
                 "Klarna_Onsitemessaging/js/pricebox-widget-mixin": true
             }
         }
+    }
+};
+
+require.config(config);
+})();
+(function() {
+/**
+ * Mageplaza
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the mageplaza.com license that is
+ * available through the world-wide-web at this URL:
+ * https://www.mageplaza.com/LICENSE.txt
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade this extension to newer
+ * version in the future.
+ *
+ * @category    Mageplaza
+ * @package     Mageplaza_Core
+ * @copyright   Copyright (c) Mageplaza (https://www.mageplaza.com/)
+ * @license     https://www.mageplaza.com/LICENSE.txt
+ */
+
+var config = {
+    paths: {
+        'mageplaza/core/jquery/popup': 'Mageplaza_Core/js/jquery.magnific-popup.min',
+        'mageplaza/core/owl.carousel': 'Mageplaza_Core/js/owl.carousel.min',
+        'mageplaza/core/bootstrap': 'Mageplaza_Core/js/bootstrap.min',
+        mpIonRangeSlider: 'Mageplaza_Core/js/ion.rangeSlider.min',
+        touchPunch: 'Mageplaza_Core/js/jquery.ui.touch-punch.min',
+        mpDevbridgeAutocomplete: 'Mageplaza_Core/js/jquery.autocomplete.min'
+    },
+    shim: {
+        "mageplaza/core/jquery/popup": ["jquery"],
+        "mageplaza/core/owl.carousel": ["jquery"],
+        "mageplaza/core/bootstrap": ["jquery"],
+        mpIonRangeSlider: ["jquery"],
+        mpDevbridgeAutocomplete: ["jquery"],
+        touchPunch: ['jquery', 'jquery/ui']
     }
 };
 
