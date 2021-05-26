@@ -1,4 +1,4 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1622049164;s:6:"expire";i:1653585164;s:4:"tags";s:37:"626_LAYOUT_GENERAL_CACHE_TAG,626_MAGE";}
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1622053516;s:6:"expire";i:1653589516;s:4:"tags";s:37:"626_LAYOUT_GENERAL_CACHE_TAG,626_MAGE";}
 <?xml version="1.0"?>
 <layouts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><handle id="catalog_category_view"><body/>
 </handle><handle id="catalogsearch_advanced_index"><body/>
@@ -6976,6 +6976,11 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1622049164;s:6:"expire";i:1653585164;s:4:"t
    </referenceBlock>
    <referenceContainer name="cart.summary">
       <block class="Klarna\Onsitemessaging\Block\Cart" name="klarna.osm.cart" as="klarna_osm_cart" template="Klarna_Onsitemessaging::html/placement/cart.phtml" after="-"/>
+   </referenceContainer>
+</body>
+</handle><handle id="default"><body>
+   <referenceContainer name="content">
+      <block class="LiveChat\LiveChat\Block\SnippetBlock" name="snippetblock" template="snippetblock.phtml"/>
    </referenceContainer>
 </body>
 </handle><handle id="mp_font_awesome"><head>
