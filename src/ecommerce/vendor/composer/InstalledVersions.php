@@ -20,6 +20,8 @@ use Composer\Semver\VersionParser;
 
 
 
+
+
 class InstalledVersions
 {
 private static $installed = array (
@@ -124,6 +126,15 @@ private static $installed = array (
       array (
       ),
       'reference' => '9c66a2ceea2d4c82386e3fafd1db0303fa73bedb',
+    ),
+    'avada/module-proofo' => 
+    array (
+      'pretty_version' => '1.0.4',
+      'version' => '1.0.4.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'b25831077338cac895d7403e03938606a2fadfb6',
     ),
     'aws/aws-sdk-php' => 
     array (
@@ -4138,6 +4149,25 @@ private static $installed = array (
       ),
       'reference' => '6ad81500d33f085ca2391f2b59e37bd34203b29b',
     ),
+    'mageplaza/magento-2-vietnamese-language-pack' => 
+    array (
+      'pretty_version' => 'dev-master',
+      'version' => 'dev-master',
+      'aliases' => 
+      array (
+        0 => '9999999-dev',
+      ),
+      'reference' => 'ed67b72abea09cdbd9f55edbadcbd458808d75f2',
+    ),
+    'mageplaza/module-core' => 
+    array (
+      'pretty_version' => '1.4.10',
+      'version' => '1.4.10.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'd050c9f35b04197e97b6747d7dbf1f164b1f26fe',
+    ),
     'mikey179/vfsstream' => 
     array (
       'pretty_version' => 'v1.6.8',
@@ -5546,7 +5576,6 @@ foreach (self::getInstalled() as $installed) {
 $packages[] = array_keys($installed['versions']);
 }
 
-
 if (1 === \count($packages)) {
 return $packages[0];
 }
@@ -5738,6 +5767,7 @@ public static function reload($data)
 self::$installed = $data;
 self::$installedByVendor = array();
 }
+
 
 
 

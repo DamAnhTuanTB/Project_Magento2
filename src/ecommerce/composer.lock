@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "099f542ea79716205ca3d1cc2c478c34",
+    "content-hash": "b46298511cdbce56b5eca7dbc568fd7e",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -281,6 +281,48 @@
                 "source": "https://github.com/adobe/stock-api-libphp/tree/master"
             },
             "time": "2020-04-20T17:47:06+00:00"
+        },
+        {
+            "name": "avada/module-proofo",
+            "version": "1.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Proofo/proofo-magento-2.git",
+                "reference": "b25831077338cac895d7403e03938606a2fadfb6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Proofo/proofo-magento-2/zipball/b25831077338cac895d7403e03938606a2fadfb6",
+                "reference": "b25831077338cac895d7403e03938606a2fadfb6",
+                "shasum": ""
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Avada\\Proofo\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Proofo Team",
+                    "email": "proofo@avada.io",
+                    "homepage": "https://proofo.io",
+                    "role": "Technical Support"
+                }
+            ],
+            "description": "Proofo Social Proof",
+            "support": {
+                "issues": "https://github.com/Proofo/proofo-magento-2/issues",
+                "source": "https://github.com/Proofo/proofo-magento-2/tree/master"
+            },
+            "time": "2020-07-02T09:11:56+00:00"
         },
         {
             "name": "aws/aws-sdk-php",
@@ -17154,6 +17196,92 @@
             "time": "2020-12-02T21:12:59+00:00"
         },
         {
+            "name": "mageplaza/magento-2-vietnamese-language-pack",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mageplaza/magento-2-vietnamese-language-pack.git",
+                "reference": "ed67b72abea09cdbd9f55edbadcbd458808d75f2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mageplaza/magento-2-vietnamese-language-pack/zipball/ed67b72abea09cdbd9f55edbadcbd458808d75f2",
+                "reference": "ed67b72abea09cdbd9f55edbadcbd458808d75f2",
+                "shasum": ""
+            },
+            "require": {
+                "mageplaza/module-core": "^1.3.13"
+            },
+            "default-branch": true,
+            "type": "magento2-language",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mageplaza team",
+                    "email": "hi@mageplaza.com",
+                    "homepage": "https://www.mageplaza.com",
+                    "role": "Leader"
+                }
+            ],
+            "description": "Vietnamese language package for Magento 2",
+            "homepage": "https://www.mageplaza.com",
+            "support": {
+                "issues": "https://github.com/mageplaza/magento-2-vietnamese-language-pack/issues",
+                "source": "https://github.com/mageplaza/magento-2-vietnamese-language-pack/tree/master"
+            },
+            "time": "2020-06-29T09:15:10+00:00"
+        },
+        {
+            "name": "mageplaza/module-core",
+            "version": "1.4.10",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mageplaza/module-core.git",
+                "reference": "d050c9f35b04197e97b6747d7dbf1f164b1f26fe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mageplaza/module-core/zipball/d050c9f35b04197e97b6747d7dbf1f164b1f26fe",
+                "reference": "d050c9f35b04197e97b6747d7dbf1f164b1f26fe",
+                "shasum": ""
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Mageplaza\\Core\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Mageplaza",
+                    "email": "support@mageplaza.com",
+                    "homepage": "https://www.mageplaza.com",
+                    "role": "Technical Support"
+                }
+            ],
+            "description": "Mageplaza Core for Magento 2",
+            "support": {
+                "issues": "https://github.com/mageplaza/module-core/issues",
+                "source": "https://github.com/mageplaza/module-core/tree/v1.4.10"
+            },
+            "time": "2020-12-07T08:10:17+00:00"
+        },
+        {
             "name": "monolog/monolog",
             "version": "1.26.0",
             "source": {
@@ -26462,7 +26590,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "mageplaza/magento-2-vietnamese-language-pack": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],

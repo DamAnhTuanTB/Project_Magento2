@@ -475,6 +475,51 @@
             "install-path": "../astock/stock-api-libphp"
         },
         {
+            "name": "avada/module-proofo",
+            "version": "1.0.4",
+            "version_normalized": "1.0.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Proofo/proofo-magento-2.git",
+                "reference": "b25831077338cac895d7403e03938606a2fadfb6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Proofo/proofo-magento-2/zipball/b25831077338cac895d7403e03938606a2fadfb6",
+                "reference": "b25831077338cac895d7403e03938606a2fadfb6",
+                "shasum": ""
+            },
+            "time": "2020-07-02T09:11:56+00:00",
+            "type": "magento2-module",
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Avada\\Proofo\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Proofo Team",
+                    "email": "proofo@avada.io",
+                    "homepage": "https://proofo.io",
+                    "role": "Technical Support"
+                }
+            ],
+            "description": "Proofo Social Proof",
+            "support": {
+                "issues": "https://github.com/Proofo/proofo-magento-2/issues",
+                "source": "https://github.com/Proofo/proofo-magento-2/tree/master"
+            },
+            "install-path": "../avada/module-proofo"
+        },
+        {
             "name": "aws/aws-sdk-php",
             "version": "3.180.0",
             "version_normalized": "3.180.0.0",
@@ -20621,6 +20666,98 @@
                 "source": "https://github.com/magento/zf1/tree/1.14.5"
             },
             "install-path": "../magento/zendframework1"
+        },
+        {
+            "name": "mageplaza/magento-2-vietnamese-language-pack",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mageplaza/magento-2-vietnamese-language-pack.git",
+                "reference": "ed67b72abea09cdbd9f55edbadcbd458808d75f2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mageplaza/magento-2-vietnamese-language-pack/zipball/ed67b72abea09cdbd9f55edbadcbd458808d75f2",
+                "reference": "ed67b72abea09cdbd9f55edbadcbd458808d75f2",
+                "shasum": ""
+            },
+            "require": {
+                "mageplaza/module-core": "^1.3.13"
+            },
+            "time": "2020-06-29T09:15:10+00:00",
+            "default-branch": true,
+            "type": "magento2-language",
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mageplaza team",
+                    "email": "hi@mageplaza.com",
+                    "homepage": "https://www.mageplaza.com",
+                    "role": "Leader"
+                }
+            ],
+            "description": "Vietnamese language package for Magento 2",
+            "homepage": "https://www.mageplaza.com",
+            "support": {
+                "issues": "https://github.com/mageplaza/magento-2-vietnamese-language-pack/issues",
+                "source": "https://github.com/mageplaza/magento-2-vietnamese-language-pack/tree/master"
+            },
+            "install-path": "../mageplaza/magento-2-vietnamese-language-pack"
+        },
+        {
+            "name": "mageplaza/module-core",
+            "version": "1.4.10",
+            "version_normalized": "1.4.10.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mageplaza/module-core.git",
+                "reference": "d050c9f35b04197e97b6747d7dbf1f164b1f26fe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mageplaza/module-core/zipball/d050c9f35b04197e97b6747d7dbf1f164b1f26fe",
+                "reference": "d050c9f35b04197e97b6747d7dbf1f164b1f26fe",
+                "shasum": ""
+            },
+            "time": "2020-12-07T08:10:17+00:00",
+            "type": "magento2-module",
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Mageplaza\\Core\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Mageplaza",
+                    "email": "support@mageplaza.com",
+                    "homepage": "https://www.mageplaza.com",
+                    "role": "Technical Support"
+                }
+            ],
+            "description": "Mageplaza Core for Magento 2",
+            "support": {
+                "issues": "https://github.com/mageplaza/module-core/issues",
+                "source": "https://github.com/mageplaza/module-core/tree/v1.4.10"
+            },
+            "install-path": "../mageplaza/module-core"
         },
         {
             "name": "mikey179/vfsstream",
