@@ -1,26 +1,34 @@
 <strong class="text-title">Tiện Ích</strong>
 <div class="ultity">
-    <div class="u_p_1">
-        <div>DỰ BÁO THỜI TIẾT</div>
-        <a href="/du-bao-thoi-tiet">Xem ngay</a>
+    <div class="u_p_1 item">
+        <div class="info">
+            <div>DỰ BÁO THỜI TIẾT</div>
+            <a href="/du-bao-thoi-tiet">Xem ngay</a>
+        </div>
+        <div class="overlay"></div>
     </div>
-    <div class="u_p_2">
-        <div>TỈ GIÁ TIỀN TỆ</div>
-        <a href="/ti-gia-tien-te">Xem ngay</a>
+    <div class="u_p_2 item">
+        <div class="info">
+            <div>TỈ GIÁ TIỀN TỆ</div>
+            <a href="/ti-gia-tien-te">Xem ngay</a>
+        </div>
+        <div class="overlay"></div>
     </div>
 
-    <div class="u_p_3">
-        <div>BẢN TIN KINH DOANH</div>
-        <a href="/ban-tin-kinh-doanh">Xem ngay</a>
+    <div class="u_p_3 item">
+        <div class="info">
+            <div>BẢN TIN KINH DOANH</div>
+            <a href="/ban-tin-kinh-doanh">Xem ngay</a>
+        </div>
+        <div class="overlay"></div>
     </div>
-
 </div>
 
 <style>
-    @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400&family=Playfair+Display&display=swap');
+    @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400&family=Playfair+Display&display=swap");
 
     *:not(.socials-block) {
-        font-family: 'Fira Sans', sans-serif !important;
+        font-family: "Fira Sans", sans-serif !important;
     }
 
     .block-title {
@@ -51,7 +59,7 @@
         font-size: 14px !important;
     }
 
-    .ui-menu-item a{
+    .ui-menu-item a {
         font-size: 16px !important;
     }
 
@@ -59,19 +67,48 @@
         width: 100% !important;
     }
 
+    .overlay {
+        background-color: #000;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        opacity: 0.1;
+        transition: 0.2s;
+    }
+
+    .info {
+        margin-left: 5%;
+        z-index: 10;
+        color: white;
+    }
+
+    .info>div {
+        text-shadow: -2px 3px 2px rgba(2, 2, 2, 0.5);
+    }
+
     .ultity {
         width: 100%;
         display: flex;
-        color: #082e48;
+        flex-wrap: wrap;
         font-size: 22px;
         font-weight: bold;
-        text-shadow: 0px 1px 2px white;
         padding-bottom: 40px;
     }
-    .ultity>div{
-        padding: 10% 30px;
-        width: 33.33%;
+
+    .ultity>div {
+        display: flex;
+        position: relative;
+        margin-right: 10px;
+        margin-top: 10px;
+        min-height: 200px;
+        flex-grow: 1;
+        min-width: 30%;
     }
+
+    .ultity>div:hover .overlay {
+        opacity: 0.5;
+    }
+
     .ultity>div>div {
         font-size: 25px;
     }
@@ -94,28 +131,22 @@
         background: #f66d1f;
     }
 
-    .u_p_1 {
-        display: flex;
+    .item {
         flex-direction: column;
         justify-content: center;
-        background-image: url('https://i.imgur.com/DT5Eykx.png');
-        background-size: cover
+        background-size: cover;
+    }
+
+    .u_p_1 {
+        background-image: url("hhttps://i.imgur.com/DT5Eykx.png");
     }
 
     .u_p_2 {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        background-image: url('https://i.imgur.com/sPYL147.png');
-        background-size: cover
+        background-image: url("https://i.imgur.com/sPYL147.png");
     }
 
     .u_p_3 {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        background-image: url('http://bit.ueh.edu.vn/wp-content/uploads/2017/06/e-commerce.jpg');
-        background-size: cover
+        background-image: url("http://bit.ueh.edu.vn/wp-content/uploads/2017/06/e-commerce.jpg");
     }
 
     .navigation {
