@@ -16,7 +16,7 @@ class Weather
 {
     const REQUEST_TIMEOUT = 2000;
 
-    const END_POINT_URL = 'api.openweathermap.org/data/2.5/weather?q=';
+    const END_POINT_URL = 'http://api.openweathermap.org/data/2.5/weather?q=';
 
     const API_KEY = '0e5dd8e04ca03c589ac3cb28526fc2ea';
 
