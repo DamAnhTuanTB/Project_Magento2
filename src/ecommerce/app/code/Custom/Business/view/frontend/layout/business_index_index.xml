@@ -5,6 +5,7 @@
     <head>
         <css src="Custom_Business::css/style.css"/>
         <css src="Custom_Business::css/general-file.css"/>
+        <css src="Custom_Business::css/general.css"/>
     </head>
     <body>
         <referenceContainer name="content">
