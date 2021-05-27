@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Created by PhpStorm.
  * User: yards
@@ -17,7 +18,7 @@ class Weather
 
     const END_POINT_URL = 'api.openweathermap.org/data/2.5/weather?q=';
 
-    const API_KEY = 'fa49d4435bea40801e1bb1711bed3716';
+    const API_KEY = '0e5dd8e04ca03c589ac3cb28526fc2ea';
 
     private $response;
     /**
@@ -43,8 +44,7 @@ class Weather
         \Magento\Framework\HTTP\Client\CurlFactory $curlFactory,
         Http $http,
         \Magento\Framework\Json\Helper\Data $jsonHelper
-    )
-    {
+    ) {
         $this->curlFactory = $curlFactory;
         $this->http = $http;
         $this->jsonHelper = $jsonHelper;
@@ -52,7 +52,7 @@ class Weather
 
     public function getWeatherResponse($city)
     {
-        if(!$this->response){
+        if (!$this->response) {
             $this->response = (object) $this->getResponseFromEndPoint($city);
         }
         return $this->response;
@@ -69,7 +69,7 @@ class Weather
         $client = $this->curlFactory->create();
         $client->setTimeout(self::REQUEST_TIMEOUT);
         $client->get(
-            self::END_POINT_URL . $city . '&APPID=' . self::API_KEY
+            self::END_POINT_URL . $city . '&appid=' . self::API_KEY
         );
         return $client->getBody();
     }
