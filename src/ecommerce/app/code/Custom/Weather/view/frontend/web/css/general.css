@@ -54,7 +54,8 @@
     font-size: 16px;
 }
 
-.text-title {
+.text-title,
+.page-title {
     display: block;
     font-size: 22px;
     border-bottom: 2px solid #555;
