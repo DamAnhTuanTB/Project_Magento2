@@ -7,8 +7,6 @@ if (!empty($feeds)) {
 
     $site = $feeds->channel->title;
     $sitelink = $feeds->channel->link;
-
-    echo "<h1 class='text-title'>BẢN TIN KINH DOANH</h1>";
     foreach ($feeds->channel->item as $item) {
 
         $title = $item->title;
