@@ -2,7 +2,6 @@
 
 /** @var \Custom\Weather\Block\WeatherBlock $block */
 ?>
-<title>Fit in - Dự báo thời tiết</title>
 <?php
 $isData = false;
 $name = '';
@@ -36,6 +35,7 @@ if (!empty($_GET) && !empty($_GET['city'])) {
         border-radius: 10px;
         background-color: #000;
         color: white;
+        transition: 0.2s;
     }
 
     .search-btn:hover {

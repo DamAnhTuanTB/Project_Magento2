@@ -21,10 +21,13 @@ if (!empty($feeds)) {
         if ($i >= 6) break;
 ?>
         <div class="post">
-            <div class="post-head">
-                <div class="post-title"><?php echo $title; ?></div>
-                <div class="post-time"><?php echo $pubDate; ?></div>
-            </div>
+            <a href="<?php echo $link; ?>">
+                <div class="post-head">
+                    <div class="post-title"><?php echo $title; ?></div>
+                    <div class="post-time"><?php echo $pubDate; ?></div>
+                </div>
+            </a>
+
             <div class="post-content">
                 <?php echo implode(' ', array_slice(explode(' ', $description), 0, 20)) . "..."; ?> <a class="post-link" href="<?php echo $link; ?>">Xem tiếp</a>
             </div>
@@ -45,6 +48,10 @@ if (!empty($feeds)) {
         width: 33% !important;
         float: left !important;
         padding: 20px !important;
+    }
+
+    .post:hover {
+        background-color: #e2e2e2;
     }
 
     .post * {
