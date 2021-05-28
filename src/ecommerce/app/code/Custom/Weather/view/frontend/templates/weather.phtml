@@ -32,7 +32,7 @@ if (!empty($_GET) && !empty($_GET['city'])) {
 </style>
 <h1 class="text-title">DỰ BÁO THỜI TIẾT</h1>
 <div id="show_weather">
-    <form class="search-weather" action="/weather/" method="GET">
+    <form class="search-weather" action="/du-bao-thoi-tiet/" method="GET">
         <input type="text" placeholder="Nhập tên thành phố" id="search-txt" name="city" value="<?php echo $name ?>">
         <button button type="submit" id="weather_button">Xem thời tiết</button> </br>
         <?php if ($name != '' && !$isData) echo '<i class="text_danger">Không tìm thấy dữ liệu</i>' ?>
