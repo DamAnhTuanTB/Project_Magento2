@@ -5,6 +5,7 @@
     <head>
         <css src="Custom_Weather::css/style.css"/>
         <css src="Custom_Weather::css/general.css"/>
+        <title>Fit in - Dự báo thời tiết</title>
     </head>
     <body>
         <referenceContainer name="content">

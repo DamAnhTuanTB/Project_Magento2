@@ -2,6 +2,7 @@
 
 /** @var \Custom\Weather\Block\WeatherBlock $block */
 ?>
+<title>Fit in - Dự báo thời tiết</title>
 <?php
 $isData = false;
 $name = '';
@@ -29,12 +30,24 @@ if (!empty($_GET) && !empty($_GET['city'])) {
     .page-footer {
         margin-top: 30px !important;
     }
+
+    .search-btn {
+        padding: 7px 10px;
+        border-radius: 10px;
+        background-color: #000;
+        color: white;
+    }
+
+    .search-btn:hover {
+        background-color: rgb(246, 109, 31);
+    }
 </style>
+
 <h1 class="text-title">DỰ BÁO THỜI TIẾT</h1>
 <div id="show_weather">
     <form class="search-weather" action="/du-bao-thoi-tiet/" method="GET">
         <input type="text" placeholder="Nhập tên thành phố" id="search-txt" name="city" value="<?php echo $name ?>">
-        <button button type="submit" id="weather_button">Xem thời tiết</button> </br>
+        <button button class="search-btn" type="submit" id="weather_button">Xem thời tiết</button> </br>
         <?php if ($name != '' && !$isData) echo '<i class="text_danger">Không tìm thấy dữ liệu</i>' ?>
     </form>
 
