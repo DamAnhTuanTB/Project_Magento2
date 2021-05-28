@@ -1,4 +1,4 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1622089826;s:6:"expire";i:1653625826;s:4:"tags";s:37:"626_LAYOUT_GENERAL_CACHE_TAG,626_MAGE";}
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1622222004;s:6:"expire";i:1653758004;s:4:"tags";s:37:"626_LAYOUT_GENERAL_CACHE_TAG,626_MAGE";}
 <?xml version="1.0"?>
 <layouts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><handle id="catalog_category_view"><body/>
 </handle><handle id="catalogsearch_advanced_index"><body/>
@@ -6647,6 +6647,8 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1622089826;s:6:"expire";i:1653625826;s:4:"t
 </handle><handle id="business_index_index" layout="1column"><head>
    <css src="Custom_Business::css/style.css"/>
    <css src="Custom_Business::css/general-file.css"/>
+   <css src="Custom_Business::css/general.css"/>
+   <title>Fit in - B&#x1EA3;n tin kinh doanh</title>
 </head>
 <body>
    <referenceContainer name="content">
@@ -6657,6 +6659,8 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1622089826;s:6:"expire";i:1653625826;s:4:"t
 </body>
 </handle><handle id="currency_index_index" layout="1column"><head>
    <css src="Custom_Currency::css/style.css"/>
+   <css src="Custom_Currency::css/general.css"/>
+   <title>Fit in - T&#x1EC9; gi&#xE1; ti&#x1EC1;n t&#x1EC7;</title>
 </head>
 <body>
    <referenceContainer name="content">
@@ -6669,6 +6673,8 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1622089826;s:6:"expire";i:1653625826;s:4:"t
 </body>
 </handle><handle id="weather_index_index" layout="1column"><head>
    <css src="Custom_Weather::css/style.css"/>
+   <css src="Custom_Weather::css/general.css"/>
+   <title>Fit in - D&#x1EF1; b&#xE1;o th&#x1EDD;i ti&#x1EBF;t</title>
 </head>
 <body>
    <referenceContainer name="content">

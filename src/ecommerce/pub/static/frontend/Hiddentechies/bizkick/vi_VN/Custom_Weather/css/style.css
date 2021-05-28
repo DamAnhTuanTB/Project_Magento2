@@ -1,48 +1,45 @@
-
-  #temp, #humidity-div {
+#temp,
+#humidity-div {
     font-weight: bold;
     font-size: 60px;
     color: #fff;
-    text-align: center
-  }
+    text-align: center;
+}
 
-  .city-icon-holder {
+.city-icon-holder {
     text-align: center;
     width: 500px;
+}
 
-  }
-
-  #city-name {
+#city-name {
     font-size: 50px;
     font-weight: bold;
     color: #fff;
     font-family: VT323;
-  }
+}
 
-  #icon {
-    width:50%;
-  }
+#icon {
+    width: 50%;
+}
 
-  #main{
+#main {
     width: 100%;
     height: 100%;
     position: relative;
-  }
+}
 
-  .search-weather {
+.search-weather {
     width: 100%;
     float: left;
     padding-top: 20px;
     padding-bottom: 20px;
-    background: linear-gradient(
-45deg
-, #43a0b7, transparent);
+    background: linear-gradient(45deg, #43a0b7, transparent);
 
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
-  }
+}
 
-  .city-icon {
+.city-icon {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,27 +47,23 @@
     float: left;
     width: 50%;
     border-bottom-left-radius: 25px;
-    background: linear-gradient(
-      45deg
-      ,#0c505e, transparent);
-  }
+    background: linear-gradient(45deg, #0c505e, transparent);
+}
 
-  .temperature {
+.temperature {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     float: left;
     left: 50%;
-    top:0%;
+    top: 0%;
     height: 200px;
     width: 50%;
-    background: linear-gradient(
-      45deg
-      , #3587a2, transparent);
-  }
+    background: linear-gradient(45deg, #3587a2, transparent);
+}
 
-  .humidity {
+.humidity {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -78,35 +71,38 @@
     float: left;
     height: 200px;
     width: 50%;
-    left:50%;
-    top:40%;
+    left: 50%;
+    top: 40%;
     border-bottom-right-radius: 25px;
-    background: linear-gradient(
-      45deg
-      , #1e7092, transparent);
-  }
+    background: linear-gradient(45deg, #1e7092, transparent);
+}
 
-  #search-btn {
+#search-btn {
     width: 40px;
-    height:40px;
+    height: 40px;
     color: #eee;
-  }
+}
 
-  #search-txt {
+#search-txt {
     color: red;
-    height:30px;
+    height: 30px;
     border-radius: 10px;
-    border-style:none;
-    outline:none;
-    padding-right:1px;
-    padding-left:1px;
-    text-align:center;
+    border-style: none;
+    outline: none;
+    padding-right: 1px;
+    padding-left: 1px;
+    text-align: center;
     width: 50%;
-    margin-left: 20%
-  }
+    margin-left: 20%;
+}
 
+.text_danger {
+    color: red;
+    margin-left: 40%;
+}
 
-  .text_danger {
-      color: red;
-      margin-left: 40%;
-  }
+.page-title {
+    border-bottom: 1px solid black !important;
+    display: block !important;
+    padding-bottom: 10px !important;
+}
