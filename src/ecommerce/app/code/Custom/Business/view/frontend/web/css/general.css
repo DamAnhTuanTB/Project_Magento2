@@ -44,12 +44,12 @@
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
-    background-color: black !important;
+    background-color: #333 !important;
 }
 
 .navigation a {
     text-decoration: none;
-    color: #000;
+    color: #333;
     transition: 0.2s;
     font-size: 16px;
 }
