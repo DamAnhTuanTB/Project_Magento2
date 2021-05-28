@@ -6,7 +6,7 @@
         <css src="Custom_Business::css/style.css"/>
         <css src="Custom_Business::css/general-file.css"/>
         <css src="Custom_Business::css/general.css"/>
-        
+        <title>Fit in - Bản tin kinh doanh</title>
     </head>
     <body>
         <referenceContainer name="content">
