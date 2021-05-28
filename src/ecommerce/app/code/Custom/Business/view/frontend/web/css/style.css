@@ -4142,4 +4142,7 @@ img:not([src]):not([srcset]) {
     display: block !important;
     padding-bottom: 10px !important;
 }
+.columns {
+    margin-bottom: 5%;
+}
 /* <link rel="preload"href="https://s1.vnecdn.net/vnexpress/restruct/c/v607/v2_2019/pc/general-file.css"as="style"onload="this.onload=null;this.rel='stylesheet'"> */
