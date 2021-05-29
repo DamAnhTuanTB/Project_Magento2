@@ -319,6 +319,7 @@ return [
         'Dotdigitalgroup_Email' => 1,
         'Dotdigitalgroup_Chat' => 1,
         'Dotdigitalgroup_Sms' => 1,
+        'Font_Widget' => 1,
         'Hiddentechies_Base' => 1,
         'Hiddentechies_Bizkick' => 1,
         'Klarna_Core' => 1,
