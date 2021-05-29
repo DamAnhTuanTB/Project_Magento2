@@ -2,7 +2,7 @@
 <widgets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Widget:etc/widget.xsd">
     <widget class="Font\Widget\Block\Sample" id="vimagento_widget_sample">
         <label>Font Fira</label>
-        <description>Thêm button</description>
+        <description>Thêm font</description>
         <parameters>
         </parameters>
     </widget>
