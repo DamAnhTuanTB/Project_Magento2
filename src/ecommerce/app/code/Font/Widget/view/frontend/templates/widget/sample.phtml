@@ -1,7 +1,17 @@
+<button id="sample">
+    <?= $block->getData('title') ?>
+</button>
 <style>
     @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400&family=Playfair+Display&display=swap");
 
     *:not(.socials-block, .fa, .fab, .fas, .far) {
         font-family: "Fira Sans", sans-serif !important;
+    }
+
+    #sample {
+        border-radius: 5px;
+        width: <?= $block->getData('width') ?>;
+        height: <?= $block->getData('height') ?>;
+        color: <?= $block->getData('color') ?>;
     }
 </style>
