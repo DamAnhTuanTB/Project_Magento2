@@ -41,8 +41,6 @@
 }
 
 .navigation {
-    display: flex !important;
-    align-items: center !important;
     background-color: #222 !important;
 }
 
