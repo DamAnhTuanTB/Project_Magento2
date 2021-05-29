@@ -41,7 +41,7 @@
 }
 
 .navigation {
-    display: flex;
+    display: flex !important;
     background-color: #222 !important;
 }
 
