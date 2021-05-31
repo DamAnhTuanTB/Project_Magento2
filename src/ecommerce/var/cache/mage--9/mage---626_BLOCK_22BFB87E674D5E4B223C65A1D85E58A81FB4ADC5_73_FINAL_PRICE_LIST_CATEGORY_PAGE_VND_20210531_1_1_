@@ -1,0 +1,28 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1622468568;s:6:"expire";i:1622554968;s:4:"tags";s:46:"626_BLOCK_HTML,626_CAT_P_73,626_CAT_P,626_MAGE";}
+a:2:{s:8:"policies";a:2:{i:0;a:3:{s:2:"id";s:10:"script-src";s:5:"hosts";a:0:{}s:6:"hashes";a:11:{s:44:"i65Xhqah+GYJ2mxwSgk4TtJJwfTXi47QJunr1Op0QEQ=";s:6:"sha256";s:44:"48sb4Je7XoTlJimO7pm/+fwXo5BBI6oU4Vci+QqK2/I=";s:6:"sha256";s:44:"HUjaEs6gPI/8f06cL8Wy1zR3vaPjSDAYb+YL5IRBsf4=";s:6:"sha256";s:44:"9N89WMndeXJQQmez3zcXupuWhb0jRtPuHYgRtBa1Cjo=";s:6:"sha256";s:44:"Mme+zaSNYGStPbpxL9Kcj1B7MMFkjgq5KcqkXinD6X0=";s:6:"sha256";s:44:"63umBgXo/MB0mSStpEZNmDG2wsw5Z1u4XuojdClQa1E=";s:6:"sha256";s:44:"RVY4HeFzavICJkKQ3JO8mLu50CrUtfQBtVhxAM0Dpes=";s:6:"sha256";s:44:"NXvkEso0K4sdoWvRGg0bNMVoHKdYevnI+Qo4W4aOfgQ=";s:6:"sha256";s:44:"gKtu4S+3Lm6ds3DA3v0x25dWtJKsdPmjt0qB3sp5/6c=";s:6:"sha256";s:44:"f852QQf9frjUezCdUYQGmRJPgSJtx/W41lOF7xpnhUw=";s:6:"sha256";s:44:"vJn3iYX0677eJ62nYGb24yGEUmI/xvradgKxNchqw80=";s:6:"sha256";}}i:1;a:3:{s:2:"id";s:9:"style-src";s:5:"hosts";a:0:{}s:6:"hashes";a:5:{s:44:"HLSBbxsNHHHFerjAGHbmOdnk2gGpxuigHI7Qt5pD2DA=";s:6:"sha256";s:44:"wmWoqHFZNeIfIhp2X648enaitOuLbAiZk+3rcL8uU9Q=";s:6:"sha256";s:44:"xp6zx55G4Ov1+YJE+RFoFeLVtk/ZokRP+KSFPwOpwMY=";s:6:"sha256";s:44:"hlq5dFFqRM5kRhFgsgrZXRPHedMP06aNbqdlMxtSla4=";s:6:"sha256";s:44:"4YiFO9/xomlt4ZHMGkWkvedVp0nGCDRKsemiSKnys60=";s:6:"sha256";}}}s:4:"html";s:951:"<div class="price-box price-final_price" data-role="priceBox" data-product-id="73" data-price-box="product-id-73">
+    <span class="special-price">
+        
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+            <span class="price-label">Giá đặc biệt</span>
+        <span  id="product-price-73"                data-price-amount="8240000"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+    ><span class="price">8.240.000,00 ₫</span></span>
+        </span>
+    </span>
+    <span class="old-price">
+        
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+            <span class="price-label">Giá thông thường</span>
+        <span  id="old-price-73"                data-price-amount="10300000"
+        data-price-type="oldPrice"
+        class="price-wrapper "
+    ><span class="price">10.300.000,00 ₫</span></span>
+        </span>
+    </span>
+
+</div>";}
