@@ -257,8 +257,8 @@ jQuery(""#hb-blogs li"").show();
 </div>
 </div>",1,0
 Footer Socials Block,footer-socials,"<div class=""socials-block"">
-            <a href=""#""><em class=""fa fa-facebook""></em></a>
-            <a href=""#""><em class=""fa fa-twitter""></em></a>
+            <a href=""https://www.facebook.com/duc.anh.luv.u/""><em class=""fa fa-facebook""></em></a>
+            <a href=""https://twitter.com/BimZeZo""><em class=""fa fa-twitter""></em></a>
             <a href=""#""><em class=""fa fa-linkedin""></em></a>
             <a href=""#""><em class=""fa fa-vimeo""></em></a>
             <a href=""#""><em class=""fa fa-google""></em></a>
