@@ -20,21 +20,12 @@
     color: white;
 }
 
-.header a {
-    font-size: 16px !important;
-}
-
-.header span {
-    font-size: 16px !important;
-}
 
 .header .authorization-link {
     font-size: 14px !important;
 }
 
-.ui-menu-item a {
-    font-size: 16px !important;
-}
+
 
 .page-bottom {
     width: 100% !important;
@@ -42,8 +33,6 @@
 
 .navigation {
     display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
     background-color: #222 !important;
 }
 
@@ -51,7 +40,6 @@
     text-decoration: none;
     color: #222;
     transition: 0.2s;
-    font-size: 16px;
 }
 
 .text-title {

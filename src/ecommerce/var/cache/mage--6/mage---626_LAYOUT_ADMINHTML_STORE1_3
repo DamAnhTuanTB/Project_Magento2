@@ -1,4 +1,4 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1622553482;s:6:"expire";i:1654089482;s:4:"tags";s:37:"626_LAYOUT_GENERAL_CACHE_TAG,626_MAGE";}
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1622561038;s:6:"expire";i:1654097038;s:4:"tags";s:37:"626_LAYOUT_GENERAL_CACHE_TAG,626_MAGE";}
 <?xml version="1.0"?>
 <layouts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><handle id="adminhtml_dashboard_index"><body>
    <referenceContainer name="content">
@@ -7979,6 +7979,9 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1622553482;s:6:"expire";i:1654089482;s:4:"t
 </head>
 </handle><handle id="mp_font_awesome"><head>
    <css src="https://use.fontawesome.com/releases/v5.10.1/css/all.css" src_type="url"/>
+</head>
+</handle><handle id="adminhtml_system_config_edit"><head>
+   <css src="Mageplaza_CurrencyFormatter::css/config.css"/>
 </head>
 </handle><handle id="adminhtml_system_config_edit"><head>
    <css src="PayPal_Braintree::styles.css"/>

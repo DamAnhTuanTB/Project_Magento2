@@ -330,6 +330,7 @@ return [
         'LiveChat_LiveChat' => 1,
         'Mageplaza_Core' => 1,
         'Mageplaza_BetterMaintenance' => 1,
+        'Mageplaza_CurrencyFormatter' => 1,
         'Mageplaza_GoogleMaps' => 1,
         'Mageplaza_SocialLogin' => 1,
         'PayPal_Braintree' => 1,
