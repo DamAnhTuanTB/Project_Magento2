@@ -1,2 +1,2 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1622282279;s:6:"expire";i:1653818279;s:4:"tags";s:53:"626_ADMIN_LOGIN,626_LAYOUT_GENERAL_CACHE_TAG,626_MAGE";}
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1622545701;s:6:"expire";i:1654081701;s:4:"tags";s:53:"626_ADMIN_LOGIN,626_LAYOUT_GENERAL_CACHE_TAG,626_MAGE";}
 {"pageLayout":"","layout":"<container name=\"root\" htmlTag=\"section\" htmlClass=\"page-wrapper\">\n   <container name=\"after.body.start\" as=\"after.body.start\" label=\"Page Top\" before=\"-\"\/>\n   <container name=\"login.header\" htmlTag=\"header\" htmlClass=\"login-header\"\/>\n   <container name=\"login.content\" htmlTag=\"div\" htmlClass=\"login-content\"\/>\n   <container name=\"login.footer\" htmlTag=\"footer\" htmlClass=\"login-footer\"\/>\n<\/container>\n"}

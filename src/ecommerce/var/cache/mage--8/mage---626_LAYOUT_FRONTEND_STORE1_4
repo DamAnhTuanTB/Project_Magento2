@@ -1,4 +1,4 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1622282241;s:6:"expire";i:1653818241;s:4:"tags";s:37:"626_LAYOUT_GENERAL_CACHE_TAG,626_MAGE";}
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1622545639;s:6:"expire";i:1654081639;s:4:"tags";s:37:"626_LAYOUT_GENERAL_CACHE_TAG,626_MAGE";}
 <?xml version="1.0"?>
 <layouts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><handle id="catalog_category_view"><body/>
 </handle><handle id="catalogsearch_advanced_index"><body/>
@@ -6992,6 +6992,200 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1622282241;s:6:"expire";i:1653818241;s:4:"t
 </handle><handle id="mp_font_awesome"><head>
    <css src="https://use.fontawesome.com/releases/v5.10.1/css/all.css" src_type="url"/>
 </head>
+</handle><handle id="default"><body>
+   <referenceContainer name="content">
+      <block class="Mageplaza\BetterMaintenance\Block\Redirect" name="mpbettermaintenance.redirect" ifconfig="mpbettermaintenance/general/enabled"/>
+   </referenceContainer>
+</body>
+</handle><handle id="mpbettermaintenance_comingsoon_index" layout="empty"><head>
+   <css src="Mageplaza_BetterMaintenance::css/style.css"/>
+</head>
+<body>
+   <referenceContainer name="page.wrapper">
+      <block class="Magento\Framework\View\Element\FormKey" name="formkey"/>
+      <referenceContainer name="main.content" remove="true"/>
+      <referenceContainer name="copyright" remove="true"/>
+      <referenceContainer name="content" remove="true"/>
+      <referenceBlock name="frontend-storage-manager" remove="true"/>
+      <block class="Mageplaza\BetterMaintenance\Block\Redirect" name="mpbettermaintenance.redirect" ifconfig="mpbettermaintenance/general/enabled"/>
+      <block class="Mageplaza\BetterMaintenance\Block\Comingsoon" name="mpbettermaintenance.comingsoon.page" template="Mageplaza_BetterMaintenance::comingsoon.phtml">
+         <block class="Mageplaza\BetterMaintenance\Block\Clock" name="mpbettermaintenance.clock" as="clock_countdown" template="Mageplaza_BetterMaintenance::clock/timer.phtml"/>
+         <block class="Magento\Newsletter\Block\Subscribe" name="form.subscribe" as="subscribe" template="subscribe.phtml"/>
+         <block class="Magento\Customer\Block\Form\Register" name="customer_form_register" as="register" template="form/register.phtml"/>
+         <block class="Mageplaza\BetterMaintenance\Block\Background" name="mpbettermaintenance.background" as="background" template="Mageplaza_BetterMaintenance::background.phtml"/>
+      </block>
+   </referenceContainer>
+</body>
+</handle><handle id="mpbettermaintenance_maintenance_index" layout="empty"><head>
+   <css src="Mageplaza_BetterMaintenance::css/style.css"/>
+</head>
+<body>
+   <referenceContainer name="page.wrapper">
+      <block class="Magento\Framework\View\Element\FormKey" name="formkey"/>
+      <referenceContainer name="main.content" remove="true"/>
+      <referenceContainer name="copyright" remove="true"/>
+      <referenceContainer name="content" remove="true"/>
+      <referenceBlock name="frontend-storage-manager" remove="true"/>
+      <block class="Mageplaza\BetterMaintenance\Block\Redirect" name="mpbettermaintenance.redirect" ifconfig="mpbettermaintenance/general/enabled"/>
+      <block class="Mageplaza\BetterMaintenance\Block\Maintenance" name="mpbettermaintenance.maintenance.page" template="Mageplaza_BetterMaintenance::maintenance.phtml">
+         <block class="Mageplaza\BetterMaintenance\Block\Clock" name="mpbettermaintenance.clock" as="clock_countdown" template="Mageplaza_BetterMaintenance::clock/timer.phtml"/>
+         <block class="Magento\Newsletter\Block\Subscribe" name="form.subscribe" as="subscribe" template="subscribe.phtml"/>
+         <block class="Magento\Customer\Block\Form\Register" name="customer_form_register" as="register" template="form/register.phtml"/>
+         <block class="Mageplaza\BetterMaintenance\Block\Background" name="mpbettermaintenance.background" as="background" template="Mageplaza_BetterMaintenance::background.phtml"/>
+      </block>
+   </referenceContainer>
+</body>
+</handle><handle id="mpbettermaintenance_preview_comingsoon" layout="empty"><head>
+   <css src="Mageplaza_BetterMaintenance::css/style.css"/>
+</head>
+<body>
+   <referenceContainer name="page.wrapper">
+      <referenceContainer name="main.content" remove="true"/>
+      <referenceContainer name="copyright" remove="true"/>
+      <referenceContainer name="content" remove="true"/>
+      <block class="Mageplaza\BetterMaintenance\Block\Preview\Comingsoon" name="mpbettermaintenance.comingsoon.preview" template="Mageplaza_BetterMaintenance::preview/comingsoon.phtml">
+         <block class="Mageplaza\BetterMaintenance\Block\Preview\Background" name="mpbettermaintenance.background.preview" as="background" template="Mageplaza_BetterMaintenance::preview/background.phtml"/>
+         <block class="Magento\Newsletter\Block\Subscribe" name="form.subscribe" as="subscribe" template="subscribe.phtml"/>
+         <block class="Magento\Customer\Block\Form\Register" name="customer_form_register" as="register" template="form/register.phtml"/>
+      </block>
+   </referenceContainer>
+</body>
+</handle><handle id="mpbettermaintenance_preview_maintenance" layout="empty"><head>
+   <css src="Mageplaza_BetterMaintenance::css/style.css"/>
+</head>
+<body>
+   <referenceContainer name="page.wrapper">
+      <referenceContainer name="main.content" remove="true"/>
+      <referenceContainer name="copyright" remove="true"/>
+      <referenceContainer name="content" remove="true"/>
+      <block class="Mageplaza\BetterMaintenance\Block\Preview\Maintenance" name="mpbettermaintenance.maintenance.preview" template="Mageplaza_BetterMaintenance::preview/maintenance.phtml">
+         <block class="Mageplaza\BetterMaintenance\Block\Preview\Background" name="mpbettermaintenance.background.preview" as="background" template="Mageplaza_BetterMaintenance::preview/background.phtml"/>
+         <block class="Magento\Newsletter\Block\Subscribe" name="form.subscribe" as="subscribe" template="subscribe.phtml"/>
+         <block class="Magento\Customer\Block\Form\Register" name="customer_form_register" as="register" template="form/register.phtml"/>
+      </block>
+   </referenceContainer>
+</body>
+</handle><handle id="contact_index_index"><body>
+   <referenceContainer name="main">
+      <block class="Magento\Framework\View\Element\Template" name="mp.googlemaps.map.top" before="-" template="Mageplaza_GoogleMaps::map/position.phtml" ifconfig="mpgooglemaps/general/enabled">
+         <arguments>
+            <argument name="position" xsi:type="string">top</argument>
+         </arguments>
+      </block>
+      <block class="Magento\Framework\View\Element\Template" name="mp.googlemaps.map.bottom" after="-" template="Mageplaza_GoogleMaps::map/position.phtml" ifconfig="mpgooglemaps/general/enabled">
+         <arguments>
+            <argument name="position" xsi:type="string">bottom</argument>
+         </arguments>
+      </block>
+   </referenceContainer>
+</body>
+</handle><handle id="checkout_index_index" layout="checkout"><body>
+   <referenceBlock name="checkout.root">
+      <arguments>
+         <argument name="jsLayout" xsi:type="array">
+            <item name="components" xsi:type="array">
+               <item name="checkout" xsi:type="array">
+                  <item name="children" xsi:type="array">
+                     <item name="authentication-mp-popup-checkout" xsi:type="array">
+                        <item name="component" xsi:type="string">Mageplaza_SocialLogin/js/view/authentication</item>
+                     </item>
+                  </item>
+               </item>
+            </item>
+         </argument>
+      </arguments>
+   </referenceBlock>
+</body>
+</handle><handle id="customer_account_create"><body>
+   <referenceContainer name="content">
+      <block class="Mageplaza\SocialLogin\Block\Popup\Social" before="-" name="social-login-popup-authentication-social-create" ifconfig="sociallogin/general/enabled" template="Mageplaza_SocialLogin::form/social.phtml">
+         <block class="Mageplaza\SocialLogin\Block\Popup" name="social-login-request-info" before="-" as="request.info" template="Mageplaza_SocialLogin::popup/form/email.phtml"/>
+      </block>
+   </referenceContainer>
+</body>
+</handle><handle id="customer_account_login"><body>
+   <referenceContainer name="content">
+      <block class="Mageplaza\SocialLogin\Block\Popup\Social" before="customer.login.container" ifconfig="sociallogin/general/enabled" name="social-login-popup-authentication-social-login" template="Mageplaza_SocialLogin::form/social.phtml">
+         <block class="Mageplaza\SocialLogin\Block\Popup" name="social-login-request-info" before="-" as="request.info" template="Mageplaza_SocialLogin::popup/form/email.phtml"/>
+      </block>
+   </referenceContainer>
+</body>
+</handle><handle id="default"><body>
+   <referenceBlock name="head.additional">
+      <block class="Mageplaza\SocialLogin\Block\Css" name="social_login_custom_style" ifconfig="sociallogin/general/enabled" template="Mageplaza_SocialLogin::css.phtml"/>
+   </referenceBlock>
+   <referenceBlock name="head.components">
+      <block class="Magento\Framework\View\Element\Js\Components" name="captcha_page_head_components" ifconfig="sociallogin/general/enabled" template="Magento_Captcha::js/components.phtml"/>
+   </referenceBlock>
+   <referenceBlock name="header_customer_form_login" remove="true"/>
+   <referenceContainer name="content">
+      <block class="Mageplaza\SocialLogin\Block\Popup" name="social-login-popup" as="popup.modal" template="popup.phtml">
+         <block class="Mageplaza\SocialLogin\Block\Popup" name="social-login-popup-email" before="-" as="popup.email" template="Mageplaza_SocialLogin::popup/form/email.phtml"/>
+         <block class="Mageplaza\SocialLogin\Block\Form\Login" name="social-login-popup-authentication" as="popup.authentication" template="Mageplaza_SocialLogin::popup/form/authentication.phtml">
+            <block class="Mageplaza\SocialLogin\Block\Popup\Social" name="social-login-popup-authentication-social" as="popup.authentication.social" template="Mageplaza_SocialLogin::popup/form/authentication/social.phtml"/>
+            <container name="social.login.form.additional.info.login" as="form_additional_info">
+               <block class="Magento\Captcha\Block\Captcha" name="social-login-captcha" as="login.captcha" after="-">
+                  <action method="setFormId">
+                     <argument name="formId" xsi:type="string">user_login</argument>
+                  </action>
+                  <action method="setImgWidth">
+                     <argument name="width" xsi:type="string">230</argument>
+                  </action>
+                  <action method="setImgHeight">
+                     <argument name="width" xsi:type="string">50</argument>
+                  </action>
+               </block>
+            </container>
+         </block>
+         <block class="Mageplaza\SocialLogin\Block\Form\Register" name="social-login-popup-create" as="popup.create" template="Mageplaza_SocialLogin::popup/form/create.phtml">
+            <container name="social.login.form.additional.info.create" as="form_additional_info">
+               <block class="Magento\Captcha\Block\Captcha" name="social-create-captcha" as="create.captcha" after="-">
+                  <action method="setFormId">
+                     <argument name="formId" xsi:type="string">user_create</argument>
+                  </action>
+                  <action method="setImgWidth">
+                     <argument name="width" xsi:type="string">230</argument>
+                  </action>
+                  <action method="setImgHeight">
+                     <argument name="width" xsi:type="string">50</argument>
+                  </action>
+               </block>
+            </container>
+         </block>
+         <block class="Magento\Framework\View\Element\Template" name="social-login-popup-forgot" as="popup.forgot" template="Mageplaza_SocialLogin::popup/form/forgot.phtml">
+            <container name="social.login.form.additional.info.forgot" as="form_additional_info">
+               <block class="Magento\Captcha\Block\Captcha" name="social-forgot-password-captcha" as="forgot.captcha" after="-">
+                  <action method="setFormId">
+                     <argument name="formId" xsi:type="string">user_forgotpassword</argument>
+                  </action>
+                  <action method="setImgWidth">
+                     <argument name="width" xsi:type="string">230</argument>
+                  </action>
+                  <action method="setImgHeight">
+                     <argument name="width" xsi:type="string">50</argument>
+                  </action>
+               </block>
+            </container>
+         </block>
+      </block>
+   </referenceContainer>
+   <referenceBlock name="authentication-popup">
+      <arguments>
+         <argument name="jsLayout" xsi:type="array">
+            <item name="components" xsi:type="array">
+               <item name="authenticationPopup" xsi:type="array">
+                  <item name="children" xsi:type="array">
+                     <item name="social-buttons" xsi:type="array">
+                        <item name="component" xsi:type="string">Mageplaza_SocialLogin/js/view/social-buttons</item>
+                        <item name="displayArea" xsi:type="string">before</item>
+                     </item>
+                  </item>
+               </item>
+            </item>
+         </argument>
+      </arguments>
+   </referenceBlock>
+</body>
 </handle><handle id="braintree_googlepay_review" layout="1column"><head>
    <title>Review Order</title>
 </head>
