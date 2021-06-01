@@ -7635,7 +7635,7 @@ h6 {
     box-sizing: border-box;
 }
 #checkout.iwd-onepage-checkout-container * {
-    font-family: "Open Sans";
+    font-family: 'Fira Sans', sans-serif;
 }
 #checkout.iwd-onepage-checkout-container .opc-wrapper {
     box-sizing: border-box;

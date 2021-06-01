@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
 body {
     margin: 0;
     padding: 0;
@@ -53,7 +53,7 @@ html {
 }
 body {
     color: #333;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: "Fira Sans", sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: 1.42857143;
@@ -160,7 +160,7 @@ h4 .small,
 h5 .small,
 h6 .small {
     color: #333;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: "Fira Sans", sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: 1;
@@ -258,7 +258,7 @@ blockquote {
     margin: 0 0 20px 40px;
     padding: 0;
     color: #333;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: "Fira Sans", sans-serif;
     font-style: italic;
     font-weight: 400;
     line-height: 1.42857143;
@@ -334,7 +334,7 @@ button {
     color: #333;
     cursor: pointer;
     display: inline-block;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: "Fira Sans", sans-serif;
     font-weight: 700;
     margin: 0;
     padding: 12px 18px;
@@ -377,7 +377,7 @@ input[type="email"] {
     background-clip: padding-box;
     border: 1px solid #e1e1e1;
     border-radius: 1px;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: "Fira Sans", sans-serif;
     font-size: 14px;
     height: 38px;
     line-height: 1.42857143;
@@ -448,7 +448,7 @@ select {
     background-clip: padding-box;
     border: 1px solid #e1e1e1;
     border-radius: 1px;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: "Fira Sans", sans-serif;
     font-size: 14px;
     height: 38px;
     line-height: 1.42857143;
@@ -469,7 +469,7 @@ textarea {
     background-clip: padding-box;
     border: 1px solid #e1e1e1;
     border-radius: 1px;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: "Fira Sans", sans-serif;
     font-size: 14px;
     height: auto;
     line-height: 1.42857143;
@@ -631,7 +631,7 @@ fieldset[disabled] .action-primary {
     border: 1px solid #e1e1e1;
     color: #333;
     cursor: pointer;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: "Fira Sans", sans-serif;
     font-weight: 700;
     margin: 0;
     padding: 12px 18px;
@@ -3778,7 +3778,7 @@ body > .loading-mask {
     background-clip: padding-box;
     border: 1px solid #e1e1e1;
     border-radius: 1px;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: "Fira Sans", sans-serif;
     font-size: 14px;
     height: 38px;
     line-height: 1.42857143;
@@ -4118,7 +4118,7 @@ a.action.primary:focus {
     color: #fff;
     cursor: pointer;
     display: inline-block;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: "Fira Sans", sans-serif;
     font-weight: 700;
     padding: 12px 18px;
     font-size: 1.4rem;
@@ -13332,7 +13332,7 @@ fieldset[disabled] .my-credit-cards-popup .action.secondary {
     color: #fff;
     cursor: pointer;
     display: inline-block;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: "Fira Sans", sans-serif;
     font-weight: 700;
     padding: 12px 18px;
     font-size: 1.4rem;
@@ -18250,7 +18250,7 @@ h6 {
     box-sizing: border-box;
 }
 #checkout.iwd-onepage-checkout-container * {
-    font-family: "Open Sans";
+    font-family: "Fira Sans", sans-serif;
 }
 #checkout.iwd-onepage-checkout-container .opc-wrapper {
     box-sizing: border-box;
@@ -20857,7 +20857,7 @@ button.braintree-googlepay-button.black.long {
     background-clip: padding-box;
     border: 1px solid #c2c2c2;
     border-radius: 1px;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: "Fira Sans", sans-serif;
     font-size: 1.4rem;
     height: 32px;
     padding: 0 9px;
