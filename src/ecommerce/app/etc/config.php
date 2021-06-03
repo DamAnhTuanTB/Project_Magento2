@@ -332,7 +332,6 @@ return [
         'Mageplaza_BetterMaintenance' => 1,
         'Mageplaza_CurrencyFormatter' => 1,
         'Mageplaza_GoogleMaps' => 1,
-        'Mageplaza_SocialLogin' => 1,
         'PayPal_Braintree' => 1,
         'PayPal_BraintreeGraphQl' => 1,
         'Temando_ShippingRemover' => 1,
